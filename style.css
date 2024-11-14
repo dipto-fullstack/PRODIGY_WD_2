@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #e8eff5; /* Subtle light blue background */
+    margin: 0;
+  }
+.stopwatch {
+    text-align: center;
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #4CAF50; /* Matching border color to complement the theme */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+  }
+.stopwatch-name {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: red; /* Matching color for name */
+    margin-bottom: 10px;
+  }
+.time-display {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Matching color for time display */
+    border: 2px solid #4CAF50; /* Border around time display */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f9f1; /* Light green background to complement the border */
+  }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.2s ease;
+  }
+button#start {
+    background-color: #4CAF50; /* Green for start */
+  }
+button#pause {
+    background-color: #f9a825; /* Amber for pause */
+  }
+button#reset {
+    background-color: #f44336; /* Red for reset */
+  }
+button#lap {
+    background-color: #1565c0; /* Blue for lap */
+  }
+button:hover {
+    opacity: 0.85;
+  }
+.laps {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+.laps div {
+    padding: 5px;
+    color: #555555; /* Light grey for lap text */
+    border-bottom: 1px solid #ddd;
+  }

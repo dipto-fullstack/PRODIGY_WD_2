@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeKeeper - Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stopwatch">
+    <h1 class="stopwatch-name">TimeKeeper</h1>
+    <div class="time-display" id="time">00:00:00.0</div>
+    <div class="buttons">
+      <button onclick="startStopwatch()" id="start">Start</button>
+      <button onclick="pauseStopwatch()" id="pause">Pause</button>
+      <button onclick="resetStopwatch()" id="reset">Reset</button>
+      <button onclick="lapStopwatch()" id="lap">Lap</button>
+    </div>
+    <div class="laps" id="laps"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
