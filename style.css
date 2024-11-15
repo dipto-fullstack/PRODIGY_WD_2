@@ -71,6 +71,6 @@ button:hover {
   }
 .laps div {
     padding: 5px;
-    color: #555555; /* Light grey for lap text */
+    color: #555555; 
     border-bottom: 1px solid #ddd;
   }
