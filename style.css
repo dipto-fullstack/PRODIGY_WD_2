@@ -4,15 +4,15 @@ body {
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #e8eff5; /* Subtle light blue background */
+    background-color: #e8eff5;
     margin: 0;
   }
 .stopwatch {
     text-align: center;
-    background-color: #ffffff; /* White background for contrast */
+    background-color: #ffffff; 
     padding: 20px;
     border-radius: 8px;
-    border: 2px solid #4CAF50; /* Matching border color to complement the theme */
+    border: 2px solid #4CAF50; 
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 300px;
     width: 100%;
@@ -20,17 +20,17 @@ body {
 .stopwatch-name {
     font-size: 1.8em;
     font-weight: bold;
-    color: red; /* Matching color for name */
+    color: red;
     margin-bottom: 10px;
   }
 .time-display {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #4CAF50; /* Matching color for time display */
-    border: 2px solid #4CAF50; /* Border around time display */
+    color: #4CAF50;
+    border: 2px solid #4CAF50; 
     padding: 10px;
     border-radius: 5px;
-    background-color: #f0f9f1; /* Light green background to complement the border */
+    background-color: #f0f9f1; 
   }
 .buttons {
     display: flex;
@@ -47,16 +47,16 @@ button {
     transition: background-color 0.2s ease;
   }
 button#start {
-    background-color: #4CAF50; /* Green for start */
+    background-color: #4CAF50; 
   }
 button#pause {
-    background-color: #f9a825; /* Amber for pause */
+    background-color: #f9a825;
   }
 button#reset {
-    background-color: #f44336; /* Red for reset */
+    background-color: #f44336; 
   }
 button#lap {
-    background-color: #1565c0; /* Blue for lap */
+    background-color: #1565c0; 
   }
 button:hover {
     opacity: 0.85;
